@@ -1,18 +1,11 @@
-Requirements:
+Based on the forked copy from highvoltage/llxc
 
- * Ubuntu 12.04 LTS
- * LXC 0.8.0-rc1 (available from the stgraber ppa)
- * python3-lxc (available from the stgraber experimental ppa)
-
-stgraber PPA: https://launchpad.net/~stgraber/+archive/experimental/+packages
+Tested on:
+ * Ubuntu 16.04 LTS
+ * LXC 2.0.8 (available in the default PPA)
+ * python3-lxc (available in the default PPA)
 
 How to use:
-
  * llxc create test01
  * llxc list
  * llxc destroy test01
-
-It doesn't currently configure ssh, you have to do that manually, or you can
-connect to the console of the container using "lxc-console -n test01"
-
-This document is an early work in progress.
